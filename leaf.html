@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="leaf.css">
+</head>
+<body>
+    
+    <img class="bg" src="pla1.jpeg" alt="IIT kharagpur">
+    <nav>
+    <h1 class="style1">Plant Disease Detection</h1>
+    </nav>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <br>
+        <br>
+        <center>
+        <h1><label for="image">Upload plant image:</label><br></h1>
+        <input type="file" id="image" accept="image/*" required><br><br><br>
+        <center><h2><button type="button" onclick="detectDisease()">Detect Disease</button></h2></center>
+    </center>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
